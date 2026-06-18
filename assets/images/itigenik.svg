@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Зелёный робот Айтигеник">
+  <rect x="42" y="44" width="76" height="82" rx="22" fill="#30c77a"/>
+  <rect x="35" y="56" width="90" height="72" rx="24" fill="#64e39d"/>
+  <rect x="49" y="69" width="62" height="35" rx="16" fill="#f7fffb"/>
+  <circle cx="65" cy="86" r="7" fill="#1d2a3a"/>
+  <circle cx="95" cy="86" r="7" fill="#1d2a3a"/>
+  <path d="M68 108c8 7 17 7 25 0" fill="none" stroke="#1d2a3a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M80 43V27" stroke="#16894f" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="80" cy="22" r="9" fill="#ffd45a"/>
+  <path d="M35 82H19M125 82h16" stroke="#16894f" stroke-width="11" stroke-linecap="round"/>
+  <path d="M54 128l-8 18M106 128l8 18" stroke="#16894f" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="45" cy="49" r="7" fill="#ffd45a"/>
+  <circle cx="115" cy="49" r="7" fill="#ffd45a"/>
+</svg>

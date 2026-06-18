@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Айтигеник: порядок в компьютере</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="game-card" aria-live="polite">
+        <header class="top-bar">
+          <div>
+            <p class="eyebrow">Айтигеник</p>
+            <h1>Порядок в компьютере</h1>
+          </div>
+          <div class="hud">
+            <span id="levelBadge">Старт игры</span>
+            <span id="starsBadge" aria-label="Звёзды">★ 0</span>
+            <button id="soundToggle" class="icon-button" type="button" title="Звук">🔊</button>
+            <label class="volume-control" title="Громкость">
+              <span>Vol</span>
+              <input id="volumeSlider" type="range" min="0" max="1" step="0.05" value="0.7" />
+            </label>
+          </div>
+        </header>
+
+        <section id="stage" class="stage"></section>
+
+        <footer class="helper-panel">
+          <img id="robotImage" src="assets/images/aitigenik-happy.png" alt="Робот Айтигеник" class="robot" />
+          <div class="helper-text">
+            <p id="helperName">Айтигеник говорит:</p>
+            <p id="helperMessage">Привет!</p>
+          </div>
+        </footer>
+
+        <nav class="bottom-actions">
+          <button id="hintButton" class="secondary-button" type="button">Подсказка</button>
+          <button id="retryButton" class="secondary-button" type="button">Повторить</button>
+          <button id="nextButton" class="primary-button" type="button">Дальше</button>
+        </nav>
+      </section>
+    </main>
+
+    <script src="script.js?v=windows-only-2"></script>
+  </body>
+</html>
